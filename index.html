@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio|Harsh Jaiswal&#174;</title>
+    <!-- swiper js  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- LOADING SCREEN  -->
+    <div id="loader">
+        <h3>Namaste!</h3>
+        <h3>Hello!</h3>
+        <h3>Hajimemashite!</h3>
+    </div>
+    <!-- HEADER SECTION -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo1.png" alt="HARSH JAISWAL" class="img-fluidlogo">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resume</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#services" class="menu_link">Services</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero section" id="hero">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>hi there,</h4>
+                    <h1>I'm
+                        <span class="typed" data-typed-items="Designer, Developer, Freelancer"></span>
+                    </h1>
+                    <p>
+                        Welcome to my creative corner! <br>
+                        I'm a passionate and dedicated developer based in India, crafting
+                        digital experiences with a blend of innovation and style.
+                    </p>
+                    <div class="hero_social">
+                        <a href="#"><ion-icon name="logo-dribbble"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/harshjaiswal01" target="_blank"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/dashboard" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </div>
+                    <a href="#about" class="btn">
+                        Read More
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="images/hero_img.png" alt="WELCOME" class="img-fluid">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ABOUT SECTION  -->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="images/about_img1.png" alt="Me">
+                </div>
+                <div class="about_content">
+                    <h1>Crafting Seamless Experiences with Professional Design and Development</h1>
+                    <p>Greetings! I'm Harsh Jaiswal, a dedicated B.Tech CSE student currently in my second year, set to
+                        graduate in 2026. My journey into the tech world has been marked by a passion for creating
+                        seamless digital experiences.
+                        Embark on a journey where your ideas come to life through a fusion of professional design and
+                        seamless development. I specialize in creating user-centric experiences, ensuring your vision is
+                        not only visually captivating but also technically robust.</p>
+                    <div class="about_info">
+                        <div>
+                            <span class="number">10+</span>
+                            <br>
+                            <span class="text">Completed <br> projects</span>
+                        </div>
+                        <div>
+                            <span class="number">30+</span>
+                            <br>
+                            <span class="text">Positive <br>review's</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME SECTION  -->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Education</a>
+                        </li>
+                        <li>
+                            <a href="#page-2">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#page-3">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#page-4">Awards</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_content">
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">Education</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2022-2026</span>
+                                <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+                                <span class="position">BP Poddar Institute of Management and Technology</span>
+                                <p><span><b>GPA: 9.32/10.00</b></span><br>
+                                    Embarking on a transformative journey in computer science and engineering. Currently
+                                    in the second year, I am gaining a solid foundation to innovate and create solutions
+                                    that resonate with your needs.Developing strong collaboration and teamwork skills
+                                    through group projects and interactions with diverse peers. Cultivating adaptability
+                                    and time management in a dynamic academic environment.</p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2020-2022</span>
+                                <h4>Senior Secondary</h4>
+                                <span class="position">AGPN Convent and ER School</span>
+                                <p><span class="marks"><b>Percentage: 91%</b></span><br>
+                                    Building a strong academic background to bring a well-rounded perspective to every
+                                    project. Learning the intricacies that contribute to comprehensive
+                                    problem-solving.Enhancing communication skills through presentations and
+                                    interactions. Developing resilience and stress management during exam periods.</p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2019-2020</span>
+                                <h4>Secondary School</h4>
+                                <span class="position">Leela Janki Public School</span>
+                                <p><span class="marks"><b>Percentage: 96%</b></span><br>
+                                    Establishing the groundwork for a commitment to excellence. Developing a mindset
+                                    dedicated to creating impactful solutions for you.Cultivating organizational skills
+                                    and discipline in a structured academic environment. Building a foundation for
+                                    lifelong learning and adaptability.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-2" class="page two">
+                        <div class="page_heading">Experience</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2022-present</span>
+                                <h4>Software Developer</h4>
+                                <span class="position">MAKAUT University</span>
+                                <p>In the initial year of my college journey, I delved into the fundamentals of software
+                                    development. Gaining proficiency in foundational programming languages, algorithms,
+                                    and problem-solving. While my experience is in its early stages, I am enthusiastic
+                                    about applying my growing knowledge to real-world challenges.</p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2023-present</span>
+                                <h4>UI UX Designer</h4>
+                                <span class="position">UI/UX Course</span>
+                                <p>Enrolled in a specialized UI/UX course to delve into the principles of user interface
+                                    and experience design. Gaining insights into creating intuitive and visually
+                                    appealing digital experiences. Acquiring skills in wireframing, prototyping, and
+                                    user research for comprehensive design solutions.Navigated through challenges, from
+                                    understanding user personas to crafting user-centric interfaces. This experience has
+                                    heightened my design thinking and ability to bridge the gap between aesthetics and
+                                    functionality.</p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">Ongoing</span>
+                                <h4>Web Developer</h4>
+                                <span class="position">Self-Taught Frontent developer with Projects</span>
+                                <p>Applied knowledge gained from the UI/UX course to various projects, translating ideas
+                                    into visually engaging and user-friendly interfaces. From concept to execution, each
+                                    project has honed my design skills and enhanced my ability to create seamless
+                                    digital experiences.Applied knowledge gained from the UI/UX course to various
+                                    projects, translating ideas into visually engaging and user-friendly interfaces.
+                                    From concept to execution, each project has honed my design skills and enhanced my
+                                    ability to create seamless digital experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="page-3" class="page three">
+                        <div class="page_heading">Skills</div>
+                        <div class="progressBoxs grid">
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>HTML</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>CSS</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Javascript</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>Figma</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>React</span>
+                                    <span>20%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 20%;"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>NodeJs</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                            <div class="progressBox">
+                                <div class="progress_name">
+                                    <span>MongoDb</span>
+                                    <span>75%</span>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress_bar" style="width: 75%;"></div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div id="page-4" class="page four">
+                        <div class="page_heading">Awards</div>
+                        <!-- <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="ribbon-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2014-2015</span>
+                                <h4>Top 10 Developer</h4>
+                                <span class="position">LEET CODE</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis veritatis
+                                    voluptate ipsa, sit blanditiis vel fugit, enim totam, eveniet sapiente facilis
+                                    pariatur nostrum delectus.</p>
+                            </div>
+                        </div> -->
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="ribbon-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2023</span>
+                                <h4>Overall 1st Year College Topper</h4>
+                                <span class="position">MAKAUT University</span>
+                                <p>With a deep sense of humility, I am honored to share that I secured the title of
+                                    Overall 1st Year College Topper at MAKAUT University in the academic year 2023. This
+                                    achievement humbly reflects my persistent dedication to academic excellence and my
+                                    sincere commitment to the pursuit of knowledge.
+                                    Throughout the academic year, I quietly embraced the challenges, consistently
+                                    demonstrating a passion for learning and maintaining a standard of academic
+                                    performance. This accomplishment is not merely a personal milestone but, in all
+                                    humility, a reflection of the encouraging learning environment and the invaluable
+                                    guidance provided by my teachers and peers.
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="resume_wrap">
+                        <div class="resume_wrap-icon">
+                            <ion-icon name="ribbon-outline"></ion-icon>
+                        </div>
+                        <div class="resume_wrap-content">
+                            <span class="date">2020</span>
+                            <h4>School Topper</h4>
+                            <span class="position">LEELA JANKI PUBLIC SCHOOL</span>
+                            <p>
+                            <p>With a sense of gratitude, I reflect on being honored as the School Topper in Class 10th.
+                                This achievement, attained with humility, not only marked a personal accomplishment but
+                                also became a pivotal moment in shaping my pursuit of knowledge.
+                                Being the school topper sparked a deep-seated desire to delve further into the realms of
+                                learning. It instilled in me the curiosity to explore diverse subjects and ignited a
+                                passion for continuous knowledge acquisition. This early success laid the foundation for
+                                my ongoing commitment to academic excellence and the unwavering pursuit of
+                                understanding.
+                                The supportive atmosphere and encouragement from my teachers and classmates during this
+                                period played a crucial role in fostering a genuine love for learning, setting the stage
+                                for my subsequent academic endeavors.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION  -->
+        <section class="portfolio section" id="portfolio">
+
+            <h2 class="section_title">Portfolio</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+                <div class="portfolio_wrap-container">
+                    <div class="portfolio_item filter-web">
+                        <div class="portfolio_wrap">
+                            <img src="images/portfolio/port1.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>E-Commerce Website</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href=" https://harshjaiswal497.github.io/E-Commerce-Website/"
+                                        target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href=" https://harshjaiswal497.github.io/E-Commerce-Website/"
+                                        target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="images/portfolio/port2.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Tic Tak Toe Game</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="https://harshjaiswal497.github.io/ticTakToe/" target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://harshjaiswal497.github.io/ticTakToe/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="images/portfolio/port3.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Food Delivery Website</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href="https://harshjaiswal497.github.io/Food-Delivery/" target="_blank"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href="https://harshjaiswal497.github.io/Food-Delivery/" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="images/portfolio/port4.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Rock,Paper,Scissor Game</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="https://harshjaiswal497.github.io/rockPaperScissor/" target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://harshjaiswal497.github.io/rockPaperScissor/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-card">
+                        <div class="portfolio_wrap">
+                            <img src="images/portfolio/port5.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Netflix Clone</h4>
+                                <p>Web</p>
+                                <div class="portfolio_links">
+                                    <a href=" https://harshjaiswal497.github.io/netflixClone/" target="_blank"><ion-icon
+                                            name="add-outline"></ion-icon></a>
+                                    <a href=" https://harshjaiswal497.github.io/netflixClone/" target="_blank"><ion-icon
+                                            name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio_item filter-app">
+                        <div class="portfolio_wrap">
+                            <img src="images/portfolio/port6.png" alt="" class="img-fluid">
+                            <div class="portfolio_info">
+                                <h4>Currency Converter</h4>
+                                <p>App</p>
+                                <div class="portfolio_links">
+                                    <a href="https://harshjaiswal497.github.io/Currency-Exchange/" target="_blank"><ion-icon name="add-outline"></ion-icon></a>
+                                    <a href="https://harshjaiswal497.github.io/Currency-Exchange/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL SECTION  -->
+        <section class="testimonial section">
+            <h2 class="section_title">Testimonial</h2>
+
+            <div class="testimonial_container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial_item swiper-slide">
+                        <i class="bx bxs-quote-alt-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolor amet molestiae
+                            consectetur, enim vero sequi magnam culpa. Ex, iure?</p>
+                        <div class="img_name">
+                            <img src="" alt="R">
+                            <span class="name">Rakesh Aggrawal</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class="bx bxs-quote-alt-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolor amet molestiae
+                            consectetur, enim vero sequi magnam culpa. Ex, iure?</p>
+                        <div class="img_name">
+                            <img src="" alt="A">
+                            <span class="name">Anjela Joshi</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class="bx bxs-quote-alt-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolor amet molestiae
+                            consectetur, enim vero sequi magnam culpa. Ex, iure?</p>
+                        <div class="img_name">
+                            <img src="" alt="H">
+                            <span class="name">Harish Gupta</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                    <div class="testimonial_item swiper-slide">
+                        <i class="bx bxs-quote-alt-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolor amet molestiae
+                            consectetur, enim vero sequi magnam culpa. Ex, iure?</p>
+                        <div class="img_name">
+                            <img src="" alt="H">
+                            <span class="name">Harish Gupta</span>
+                            <span class="post">Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION  -->
+        <section class="services section" id="services">
+            <h2 class="section_title">Services</h2>
+
+            <div class="services_container container grid">
+                <div class="services_item">
+                    <ion-icon name="grid-outline"></ion-icon>
+                    <h3 class="services_title">UI/UX <br>Designer</h3>
+                    <span class="services_button">
+                        View More <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">UI/UX Designer</h3>
+                            <p class="services_modal-description">Bringing design expertise, I'm dedicated to delivering
+                                exceptional work that exceeds client expectations. Specializing in user-friendly
+                                interfaces, impactful web design, and engaging UX interactions, I position your brand
+                                uniquely in the market.</p>
+                            <ul>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Crafting intuitive user interfaces</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Web page design with a keen eye for detail</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Creating seamless UX element interactions</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Strategically positioning your company brand</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Designing and conceptualizing products for companies
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="services_item">
+                    <ion-icon name="grid-outline"></ion-icon>
+                    <h3 class="services_title">Frontent <br>Developer</h3>
+                    <span class="services_button">
+                        View More <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </span>
+                    <div class="services_modal">
+                        <div>
+                            <ion-icon name="close-outline" class="modal_close-icon"></ion-icon>
+                            <h3 class="services_modal-title">Frontent developer</h3>
+                            <p class="services_modal-description">Experienced in frontend development, I specialize in
+                                crafting tailored, high-quality solutions that align with the unique needs of clients.
+                                From vibrant user interfaces to captivating web page experiences, I bring your digital
+                                vision to life.</p>
+                            <ul>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Coding responsive and user-friendly interfaces</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Web page development with a focus on functionality
+                                    </p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Creating engaging UX element interactions</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Strategically positioning your company brand</p>
+                                </li>
+                                <li>
+                                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                                    <p class="services_modal-info">Designing and prototyping products tailored for
+                                        companies</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION  -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <input type="number" placeholder="Phone number">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <a href="#" class="btn">Send Message
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <!-- FOOTER SECTION  -->
+        <footer>
+            <div class="footer_bg">
+                <div class="footer_container container">
+                    <div class="main_footer">
+                        <div class="footer_social">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </div>
+                        <h3>Harsh Jaiswal</h3>
+                        <p>Embarking on a digital odyssey where pixels meet passion. I strive to craft immersive
+                            experiences that transcend the ordinary. <br>
+                            Join me on this journey as we navigate the
+                            ever-evolving landscape of design and technology. Together, let's create stories woven with
+                            innovation and excellence.</p>
+                    </div>
+                    <div class="footer_copy">&#169; Harsh Jaiswal. All right reserved</div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <!-- gsap  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- swiper js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- mixitup  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"
+        integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- typed js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+    <!-- iobicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- main js  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
