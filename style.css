@@ -151,7 +151,7 @@ ul {
     gap: 10px;
 }
 #loader h3 {
-    font-size: 2vw;
+    font-size: 3vmax;
 }
 #loader h3:first-child {
     text-align: center;
@@ -899,7 +899,7 @@ header .container {
     /* transform: translate(-50%, -50%); */
     background-color: #555;
     max-width: 500px;
-    max-height: 450px;
+    max-height: 520px;
     padding: 50px;
     font-size: 14px;
     color: #fff;
