@@ -832,6 +832,24 @@ header .container {
 }
 
 /* SERVICES SECTION  */
+
+#cursor {
+    height: 7.5vmax;
+    width: 7.5vmax;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor h4 {
+    position: relative;
+    font-size: 1.2vmax;
+    font-weight: 600;
+    color: #fff;
+    
+}
 .services_container {
     grid-template-columns: repeat(2, 230px);
     column-gap: 2rem;
