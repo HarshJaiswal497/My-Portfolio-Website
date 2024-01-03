@@ -898,8 +898,8 @@ header .container {
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
     background-color: #555;
-    max-width: 552px;
-    max-height: 520px;
+    max-width: 480px;
+    max-height: 552px;
     padding: 50px;
     font-size: 14px;
     color: #fff;
